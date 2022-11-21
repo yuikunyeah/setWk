@@ -27,3 +27,8 @@ a{
   text-decoration:none;
   color:skyblue;
 }
+.search{
+  outline:0;
+  border:none;
+  background-color:00808;
+}

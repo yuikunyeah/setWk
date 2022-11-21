@@ -18,7 +18,7 @@
       <ul>
         <li><a href="/home">home</a></li>
         <li><a href="/credit">クレジットと作成者</a></li>
-        <input type="text"placeholder="記事を検索" id="serach" text="serach">
+        <input type="text"placeholder="記事を検索" class="search">
       </ul>
       </nav>
     </header>
