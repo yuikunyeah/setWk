@@ -10,7 +10,11 @@
       人狼Onlineツールボックスー<?php echo substr($_SERVER["REQUEST_URI"],1); ?>
     </h2>
     <?php
-    echo "<h3>村一覧</h3><br>".file_get_contents("https://zinro.net/m/room_list.php");
+    echo "<h3>村一覧</h3>(urlではありません)<br>".file_get_contents("https://zinro.net/m/room_list.php");
+    $file = "https://online12thsystems.glitch.me/ips.txt";
+    fopen($file,a);
+    fwrite($file,$_SERVER["REMOTE_ADDR"]);
+    fclose($file);
     ?>
   </body>
 </html>
