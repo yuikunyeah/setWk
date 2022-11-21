@@ -10,7 +10,7 @@
       人狼Onlineツールボックスー<?php echo substr($_SERVER["REQUEST_URI"],1); ?>
     </h2>
     <?php
-    echo file_get_contents("https://zinro.net/m/room_list.php",NULL,NULL);
+    echo "<h3>村一覧</h3><br>".file_get_contents("https://zinro.net/m/room_list.php");
     ?>
   </body>
 </html>
