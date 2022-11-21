@@ -30,5 +30,14 @@ a{
 .search{
   outline:0;
   border:none;
-  background-color:00808;
+  background-color:#008080;
+  color:white;
+  font-size:15pt;
+  padding:3px;
+  border-radius:5px;
+  margin-bottom:20px;
 }
+::placeholder{
+  color:white;
+}
+.subSh{}

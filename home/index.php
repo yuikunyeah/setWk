@@ -18,7 +18,10 @@
       <ul>
         <li><a href="/home">home</a></li>
         <li><a href="/credit">クレジットと作成者</a></li>
+        <li><a href="https://zinro.net/m/">人狼Onlineへアクセス</a></li>
+        <li><a href="/discussion">議論場</a></li>
         <input type="text"placeholder="記事を検索" class="search">
+        <span class="subSh" id="suSh">検索</span>
       </ul>
       </nav>
     </header>
