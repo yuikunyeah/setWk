@@ -15,7 +15,7 @@
         </h1>
       <nav>
       <ul>
-        <li><a href="/home">home</a></li>
+           <li><a href="/home">home</a></li>
         <li><a href="/credit">クレジットと作成者</a></li>
         <li><a href="https://zinro.net/m/">人狼Onlineへアクセス</a></li>
         <li><a href="/discussion">議論場</a></li>
@@ -33,9 +33,7 @@
     <h2>
       人狼Online12世代wikiー<?php echo substr($_SERVER["REQUEST_URI"],1); ?>
     </h2>
-     このwikiは、人狼Onlineの12世代が送る、<br>人狼Onlineを楽しんでもらうためのwikiです。
-    さまざまな情報やプレイヤーの情報なども載っていますのでぜひ参考にしてください。
     </div>
   </body>
-  <script src="mainscript.js"></script>
+      <script src="mainscript.js"></script>
 </html> 
