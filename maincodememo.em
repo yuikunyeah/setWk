@@ -10,8 +10,10 @@
     <title>人狼Online12世代wiki<?php echo $_SERVER["REQUEST_URI"]; ?></title>
   </head>
   <body>
+  <div class="body">
     <h2 class="title">
       人狼Online12世代wiki<?php echo substr($_SERVER["REQUEST_URI"],1); ?>
     </h2>
+    </div>
   </body>
 </html>

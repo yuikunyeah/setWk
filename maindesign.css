@@ -1,3 +1,8 @@
-body{
+.body{
   text-align:center;
+}
+.header li{
+  list-style-type:none;
+  float:left;
+  padding:10px;
 }

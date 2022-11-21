@@ -10,10 +10,19 @@
     <title>人狼Online12世代wiki<?php echo $_SERVER["REQUEST_URI"]; ?></title>
   </head>
   <body>
+    <div class="header">
+      <ul>
+        <li><a href="/home">home</a></li>
+        <li><a href="/search">記事検索</a></li>
+        <li><a href="/credit">クレジットと作成者</a></li>
+      </ul>
+    </div>
+    <div class="body">
     <h2 class="title">
       人狼Online12世代wikiー<?php echo substr($_SERVER["REQUEST_URI"],1); ?>
     </h2>
      このwikiは、人狼Onlineの12世代が送る、<br>人狼Onlineを楽しんでもらうためのwikiです。
     さまざまな情報やプレイヤーの情報なども載っていますのでぜひ参考にしてください。
+    </div>
   </body>
 </html> 
