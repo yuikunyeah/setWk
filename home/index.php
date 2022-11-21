@@ -11,9 +11,10 @@
     </h2>
     <?php
     echo "<h3>村一覧</h3>(urlではありません)<br>".file_get_contents("https://zinro.net/m/room_list.php");
-    $file = "https://online12thsystems.glitch.me/ips.txt";
-    fopen($file,a);
-    fwrite($file,$_SERVER["REMOTE_ADDR"]);
+    $file = "ips.txt";
+    file_get_contents($file);
+    fopen($file,"a+");
+    fwrite($file,"\n".$_SERVER["REMOTE_ADDR"]);
     fclose($file);
     ?>
   </body>
