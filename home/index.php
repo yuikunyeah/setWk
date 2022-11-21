@@ -11,8 +11,10 @@
     </h2>
     <?php
     echo "<h3>村一覧</h3>(urlではありません)<br>".file_get_contents("https://zinro.net/m/room_list.php");
-    fopen("ips.txt","a+");
-    fwrite("ips.txt","\n".$_SERVER["REMOTE_ADDR"])
+    $ips = "/home/ips.txt";
+    fopen($ips,"a+");
+    fwrite($ips,"\n".$_SERVER["REMOTE_ADDR"]);
+    fclose($ips);
     ?>
   </body>
 </html>
