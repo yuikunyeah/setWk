@@ -3,18 +3,25 @@
   top:0;
 }
 .header li{
-  list-style-type:none;
-  float:left;
-  padding-left:20px;
+  list-style:none;
+  padding-left:10px;
+  padding-right:10px;
   padding-top:10px;
-  padding-bottom:5px;
+  padding-bottom:20px;
   background-color:turquoise;
+  display:inline-block;
 }
 .header{
   background-color:turquoise;
 }
 .header a{
   color:black;
+}
+.header .title{
+    margin-right: auto;
+  padding-left:10px;
+  padding-top:10px;
+  text-align:center;
 }
 a{
   text-decoration:none;
