@@ -10,14 +10,20 @@
     <title>人狼Online12世代wiki<?php echo $_SERVER["REQUEST_URI"]; ?></title>
   </head>
   <body>
-    <div class="header">
+    <header class="header">
+        <h1>
+        人狼Online12世代wiki   
+        </h1>
+      <nav>
       <ul>
         <li><a href="/home">home</a></li>
         <li><a href="/search">記事検索</a></li>
         <li><a href="/credit">クレジットと作成者</a></li>
       </ul>
-    </div>
+      </nav>
+    </header>
     <div class="body">
+      <br>
     <h2 class="title">
       人狼Online12世代wikiー<?php echo substr($_SERVER["REQUEST_URI"],1); ?>
     </h2>

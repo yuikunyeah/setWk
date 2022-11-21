@@ -1,8 +1,22 @@
 .body{
   text-align:center;
+  top:0;
 }
 .header li{
   list-style-type:none;
   float:left;
-  padding:10px;
+  padding-left:20px;
+  padding-top:10px;
+  padding-bottom:5px;
+  background-color:turquoise;
+}
+.header{
+  background-color:turquoise;
+}
+.header a{
+  color:black;
+}
+a{
+  text-decoration:none;
+  color:skyblue;
 }
