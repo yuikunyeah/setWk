@@ -6,7 +6,6 @@
     <meta charset="utf-8">
     <meta name="title" content="人狼Online12世代wiki">    
     <link rel="stylesheet" href="maindesign.css">
-    <script src="mainscript.js"></script>
     <title>人狼Online12世代wiki<?php echo $_SERVER["REQUEST_URI"]; ?></title>
   </head>
   <body>
@@ -20,8 +19,8 @@
         <li><a href="/credit">クレジットと作成者</a></li>
         <li><a href="https://zinro.net/m/">人狼Onlineへアクセス</a></li>
         <li><a href="/discussion">議論場</a></li>
-        <input type="text"placeholder="記事を検索" class="search">
-        <span class="subSh" id="suSh">検索</span>
+        <input type="text"placeholder="記事を検索" class="search" id="search">
+        <span class="subSh" id="subSh">検索</span>
       </ul>
       </nav>
     </header>
@@ -34,4 +33,5 @@
     さまざまな情報やプレイヤーの情報なども載っていますのでぜひ参考にしてください。
     </div>
   </body>
+  <script src="mainscript.js"></script>
 </html> 
