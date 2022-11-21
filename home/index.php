@@ -10,7 +10,7 @@
       人狼Onlineツールボックスー<?php echo substr($_SERVER["REQUEST_URI"],1); ?>
     </h2>
     <?php
-    echo getJson("https://zinro.net/m/api?mode=rooms");
+    echo file_get_contents("https://zinro.net/m/room_list.php",NULL,NULL);
     ?>
   </body>
 </html>
