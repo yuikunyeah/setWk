@@ -25,7 +25,7 @@
         <li><a href="/pages">おすすめの記事一覧</a></li>
         <?php
           if($_COOKIE["log"] == "writer"){ 
-          echo '<li><a href="/login?pass=writing">編集</li>';
+          echo '<li><a href="/login?pass=writing">編集</a></li>';
         }else
           echo '<li><a href="/login">ログイン</a></li>';
         ?>

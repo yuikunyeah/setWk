@@ -25,7 +25,7 @@
         <li><a href="/pages">おすすめの記事一覧</a></li>
         <?php
         if($_COOKIE["log"] == "writer"){ 
-          echo '<li><a href="/login?pass=writing">編集</li>';
+          echo '<li><a href="/login?pass=writing">編集</a></li>';
         }else
           echo '<li><a href="/login">ログイン</a></li>';
         ?>
@@ -45,7 +45,13 @@
       if($_COOKIE["log"] == NULL){
           echo 'パスワードを入力<br><form action="/login" method="POST"><input type="password" class="pass" name="pass"  placeholder="エンターで送信"required></form>';}
       }else{
-        if()
+        if(hash("sha256",$_POST["pass"] === "73c4b6b82de4834feb8352d23f1feda58247c219525b7c6bb281df4574c1488c")){
+          header("Location: https://online12thwiki.glitch.me/home");
+          setcookie("log","writer",time()+60*60*24*30);
+        }
+          if(hash("sha256",$_POST["pass"] !== "73c4b6b82de4834feb8352d23f1feda58247c219525b7c6bb281df4574c1488c")){
+          echo 'パスワードが違います。<br><form action="/login" method="POST"><input type="password" class="pass" name="pass"  placeholder="エンターで送信"required></form>';
+        }
       }
       ?>
     </div>
