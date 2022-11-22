@@ -22,9 +22,12 @@
         <input type="text"placeholder="記事を検索" class="search" id="search">
         <span class="subSh" id="subSh">検索</span>
         <li><a href="/archives">項目別アーカイブ</a></li>
-        <li><a href="/rooms">現在の村一覧</a></li>
         <li><a href="/pages">おすすめの記事一覧</a></li>
         <?php
+        if($_COOKIE["log"] == "writer"){ 
+          echo '<li><a href="/login?pass=writing">編集</li>';
+        }else
+          echo '<li><a href="/login">ログイン</a></li>';
         ?>
       </ul>
       </nav>
@@ -34,7 +37,12 @@
     <h2>
       人狼Online12世代wikiーログイン
     </h2>
-      
+      <?php
+      if($_COOKIE["log"] == "writer"){ 
+          header("Location: https://online12thwiki.glitch.me/home");
+        }else
+          echo '<form action="/login method="POST"><input type="password" class="search" name="pass"  placeholder="パスワードを入れてください"required></form>';
+      ?>
     </div>
   </body>
       <script src="mainscript.js"></script>
