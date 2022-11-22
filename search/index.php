@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="title" content="人狼Online12世代wiki">    
     <link rel="stylesheet" href="maindesign.css">
-    <title>人狼Online12世代wiki<?php echo $_SERVER["REQUEST_URI"]; ?></title>
+    <title>人狼Online12世代wiki/ <?php echo $_GET["q"]?>の検索結果</title>
   </head>
   <body>
     <header class="header">
@@ -31,7 +31,7 @@
     <div class="body">
       <br>
     <h2>
-      人狼Online12世代wikiー<?php echo substr($_SERVER["REQUEST_URI"],1); ?>
+      <?php echo $_GET["q"]?>の検索結果
     </h2>
     </div>
   </body>

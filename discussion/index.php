@@ -31,7 +31,7 @@
     <div class="body">
       <br>
     <h2>
-      人狼Online12世代wikiー<?php echo substr($_SERVER["REQUEST_URI"],1); ?>
+      人狼Online12世代wikiー議論場
     </h2>
     </div>
   </body>
