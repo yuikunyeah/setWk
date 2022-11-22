@@ -23,8 +23,13 @@
         <span class="subSh" id="subSh">検索</span>
         <li><a href="/archives">項目別アーカイブ</a></li>
         <li><a href="/rooms">現在の村一覧</a></li>
-        <li><a href="/おすすめ記事一覧"></a></li>
-        <?php?>
+        <li><a href="/pages">おすすめの記事一覧</a></li>
+        <?php
+        if($_COOKIE["log"] == "writer"){ 
+          echo '<li><a href="/login?pass=writing">編集</li>';
+        }else
+          echo '<li><a href="/login">ログイン</a></li>';
+        ?>
       </ul>
       </nav>
     </header>
