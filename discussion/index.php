@@ -22,8 +22,7 @@
         <input type="text"placeholder="記事を検索" class="search" id="search">
         <span class="subSh" id="subSh">検索</span>
         <li><a href="/archives">項目別アーカイブ</a></li>
-        <li><a href="/rooms">現在の村一覧</a></li>
-        <li><a href="/おすすめ記事一覧"></a></li>
+        <li><a href="/pages">おすすめの記事一覧</a></li>
         <?php?>
       </ul>
       </nav>
