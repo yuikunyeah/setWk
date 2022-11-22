@@ -38,10 +38,15 @@
       人狼Online12世代wikiーログイン
     </h2>
       <?php
+      if($_POST["pass"] == NULL){
       if($_COOKIE["log"] == "writer"){ 
           header("Location: https://online12thwiki.glitch.me/home");
-        }else
-          echo '<form action="/login method="POST"><input type="password" class="search" name="pass"  placeholder="パスワードを入れてください"required></form>';
+      }
+      if($_COOKIE["log"] == NULL){
+          echo 'パスワードを入力<br><form action="/login" method="POST"><input type="password" class="pass" name="pass"  placeholder="エンターで送信"required></form>';}
+      }else{
+        if()
+      }
       ?>
     </div>
   </body>

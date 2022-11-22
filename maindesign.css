@@ -44,7 +44,7 @@ a{
   margin-bottom:20px;
 }
 ::placeholder{
-  color:white;
+  color:gray;
 }
 .subSh{
   background-color:orange;
@@ -56,4 +56,15 @@ a{
   color:white;
   transition-duration:0.5s;
   transition-property:color,background-color
+}
+.pass{
+   outline:0;
+  border:none;
+  background-color:white;
+  color:black;
+  font-size:15pt;
+  padding:8px;
+  margin-bottom:20px;
+  width:10%;
+  border-bottom:3px solid skyblue;
 }
